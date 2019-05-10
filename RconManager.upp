@@ -1,0 +1,12 @@
+description "\377I141,212,150";
+
+uses
+	Core;
+
+file
+	RconManager.cpp,
+	RconManager.h;
+
+mainconfig
+	"" = "";
+
