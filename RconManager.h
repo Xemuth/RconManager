@@ -25,6 +25,8 @@ class RconManager{
 	public:
 	
 		RconManager(String _host, int _port, String _password ,String _serviceName,int _TBR =500);
+		bool TestConnexion();
+		bool TestLoggin();
 		void SendCommand(String commandValue);
 	
 	
